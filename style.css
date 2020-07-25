@@ -1,0 +1,274 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.7em;
+
+}
+
+h1,h2,h3{
+  padding-bottom: 20px 0px;
+}
+
+p{
+    margin: 10px 0px;
+}
+
+ #navbar a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+#navbar{
+    background-color: black;
+   color: white;
+   overflow: auto;
+
+}
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+#navbar ul{
+  list-style: none;
+  float: right;
+}
+#navbar ul li{
+    float: left;
+}
+ 
+ #navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+   
+} 
+
+#navbar  li a:hover{
+color: #f7c08a;
+background-color: #444;
+}
+.container{
+   margin: auto;
+   max-width: 1100px; 
+   padding: 0px 20px;
+   overflow: auto;
+}
+.showcase{
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    height: 600px;
+    /* text-align: center; */
+    /* padding-top: 160px; */
+}
+
+.showcase-content{
+    color: white;
+    text-align: center; 
+     padding-top: 160px;
+     line-height: 1.7em; 
+}
+
+.showcase .showcase-content h1 {
+    font-size: 60px;
+    
+}
+.showcase-content p{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.primary-text{
+    color:  #f7c08a;
+}
+.lead{
+    font-size: 20px;
+}
+ .showcase-content a{
+     text-decoration: none;
+     color: white;
+     background: #333;
+     padding: 10px;
+     font-size: 18px;
+     /* border-radius: 5px ; */
+     display: inline-block;
+     cursor: pointer;
+}
+.showcase-content a:hover{
+    background-color:#f7c08a;
+    color: #333;
+}
+.discription a{
+    text-decoration: none;
+     color: #333;
+     background: white;
+     padding: 10px;
+     font-size: 18px;
+     display: inline-block;
+     cursor: pointer;
+}
+.discription a:hover{
+    background-color:#f7c08a;
+    color: #333;
+}
+.combine{
+    height: 350px;
+    background-color: #333;
+    color: whitesmoke;
+    text-align:center;
+}
+#main {
+    height: 450;
+}
+ #main .image1{
+    background: url('../img/photo-1.jpg') no-repeat;
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+#main .discription{
+text-align: center;
+padding: 50px;
+overflow: hidden;
+line-height: 100%;
+}
+.discription h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.discription p{
+    padding-bottom: 30px;
+    line-height: 20px;
+}
+.Box{
+    float: left;
+    text-align: center;
+    width: 33.3%;
+    padding: 50px;
+
+}
+.Box i{
+    padding-bottom: 20px;
+    /* margin-bottom: 90px; */
+}
+.light-grey{
+    background-color: whitesmoke;
+}
+.light-color{
+    background-color:#f7c08a;
+}
+#main-footer{
+    text-align: center;
+    background-color: #444;
+    color: white;
+    padding: 5px;
+
+}
+.clr{
+    clear: both;
+}
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    max-height: 100%;
+}
+.info-right img{
+    width: 70%;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    max-height: 100%;
+}
+#about-info{
+    padding: 40px 0px;
+}
+.l-head{
+    font-size: 35px;
+    padding: 10px;
+}
+#testimonial
+{
+    height: 100%;
+    background: url(../img/test-bg.jpg) no-repeat center center/cover;
+    padding-top: 100px;
+}
+#testimonial .rectangle img{
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+#testimonial h2{
+    text-align: center;
+    color: white;
+    padding-bottom: 40px;
+
+}
+#testimonial .rectangle{
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    opacity: 0.9;
+
+}
+#testimonial .rectangle p{
+    text-align: justify;
+}
+
+.contact-content .form-page{
+  
+    display: block;
+    padding-top: 20px;
+   
+}
+.contact-content{
+    margin: 20px 20px;
+}
+.contact-content .form-page input, .contact-content .form-page textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+.contact-content .form-page textarea{
+    height: 200px;
+    margin-bottom: 30px;
+}
+.btn-col{
+    text-decoration: none;
+    color: white;
+    background: #333;
+    padding: 10px;
+    font-size: 18px;
+    /* border-radius: 5px ; */
+    display: inline-block;
+    /* cursor: pointer; */
+}
+.btn-col:hover{
+    background-color:#f7c08a;
+    color: #333;
+}
+.contact-content .form-page input:focus, .contact-content .form-page textarea:focus{
+    outline: none;
+    border-color:#f7c08a ;
+    
+} 
+.Box3{
+    float: left;
+    text-align: center;
+    width: 33.3%;
+    padding: 50px;
+    color: white;
+    background-color: black;
+
+}
+
+
+
+
