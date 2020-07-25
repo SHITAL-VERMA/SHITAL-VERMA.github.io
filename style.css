@@ -124,7 +124,7 @@ background-color: #444;
     height: 450;
 }
  #main .image1{
-    background: url('../img/photo-1.jpg') no-repeat;
+    background: url('photo-1.jpg') no-repeat;
     float: left;
     width: 50%;
     min-height: 100%;
@@ -196,7 +196,7 @@ line-height: 100%;
 #testimonial
 {
     height: 100%;
-    background: url(../img/test-bg.jpg) no-repeat center center/cover;
+    background: url("test-bg.jpg") no-repeat center center/cover;
     padding-top: 100px;
 }
 #testimonial .rectangle img{
